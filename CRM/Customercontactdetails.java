@@ -7,7 +7,7 @@ public class Customercontactdetails {
         String firstName = "Jahnavi";
         String lastName = "Gaddiboyina";
         String email = "jahnavi@gmail.com";
-        long phoneNumber = 7658490324;
+        long phoneNumber = 76584903;
         String address = "ayyappa society,madhapur,HYD";
         String registrationDate = "02/06/2025";
 
