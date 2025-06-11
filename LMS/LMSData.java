@@ -1,3 +1,4 @@
+package LMS;
 public class LMSData {
     public static void main(String[] args) {
         // Data for LMS Student Entity

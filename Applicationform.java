@@ -12,7 +12,7 @@ public class Applicationform {
         String sex = "female";
         String civilStatus = "Single";
         String religion = "Hindhu";
-        long contactNumber = 74903674;
+        long contactNumber = 76584903;;
         String spouseName = "N/A";
         String spouseContact = "N/A";
 
@@ -25,11 +25,9 @@ public class Applicationform {
         long motherContact = 9764002;
 
         String shsName = "Narayana High School";
-        int yearGraduated = 2019;
+        int yearGraduated = 2019;;
         double genAverage = 90.5;
 
-        
-        // Output the form information
         System.out.println("=== College Admission Application Form ===\n");
 
         System.out.println("Name: " + firstName + " " + middleName + " " + lastName);
@@ -57,8 +55,7 @@ public class Applicationform {
 
         System.out.println("\n--- Senior High School ---");
         System.out.println("School: " + shsName);
-       // System.out.println("Strand: " + shsStrand);
-        //System.out.println("Year Graduated: " + yearGraduated);
+        System.out.println("yearGraduated: " + yearGraduated);
         System.out.println("General Average: " + genAverage);
 
     
