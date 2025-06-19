@@ -18,5 +18,10 @@ public class Trainerinput {
     First_Trainer.Display_Trainer_details();
     System.out.println("------------------------------");
     Second_Trainer.Display_Trainer_details();
+
+
+
+
+    
  }
 }

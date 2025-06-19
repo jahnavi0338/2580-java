@@ -22,7 +22,7 @@
         System.out.println("Rating: ⭐ " + ratingOutOf5 + " / 5");
         System.out.println("--------------------------------------");
         System.out.println(priceDetailsLabel + ":");
-        System.out.println("Maximum Retail Price (MRP): ₹" + mrp);
+        System.out.println("Maximum Retail Price (MRP): " + mrp);
         System.out.println("Discount: " + discountPercent + "% OFF");
         System.out.println("Selling Price: ₹" + offerPrice);
         System.out.println("--------------------------------------");
