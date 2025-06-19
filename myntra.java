@@ -19,7 +19,7 @@
         System.out.println("======================================");
         System.out.println("Brand: " + brand);
         System.out.println("Description: " + shirtDescription);
-        System.out.println("Rating: ⭐ " + ratingOutOf5 + " / 5");
+        System.out.println("Rating:  " + ratingOutOf5 + " / 5");
         System.out.println("--------------------------------------");
         System.out.println(priceDetailsLabel + ":");
         System.out.println("Maximum Retail Price (MRP): " + mrp);
