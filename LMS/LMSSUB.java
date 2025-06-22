@@ -14,7 +14,6 @@ public class LMSSUB {
         System.out.println("Enter ID: ");
         int studentID = scanner.nextInt();
 
-        
 
         double attendance = 75;
         int totalScore = 0;
