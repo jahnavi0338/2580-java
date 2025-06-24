@@ -12,9 +12,7 @@ public class LMSGradePaymentTracker {
         System.out.println(s1.achievementStatus());
 
          t1.trainerInfo();
-         //s1.trainer_Ratings();
-
-         //System.out.println(t1.trainerPaymentCal());
+         
         System.out.println(t1.totalPaymentForTrainer());
 
     }

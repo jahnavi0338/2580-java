@@ -11,7 +11,7 @@ class LMStrainer {
     Scanner sc = new Scanner(System.in);
     public void trainerInfo() {
         
-        System.out.println("===============TRAINER DETAILS===============");
+        System.out.println("----------TRAINER DETAILS----------");
          System.out.print("Enter Trainer ID: ");
         Trainer_id = sc.nextInt();
         sc.nextLine(); 
@@ -20,7 +20,7 @@ class LMStrainer {
         
     }
      public int trainerPaymentCal(){
-       // Scanner sc = new Scanner(System.in);
+       
         System.out.println("Enter Number Of Sessions Taken");
         int numberOfSession_Taken = sc.nextInt();
         int session_BasedPayment = numberOfSession_Taken * 1500;
@@ -29,7 +29,6 @@ class LMStrainer {
       public int totalPaymentForTrainer(){
        
         LMSstudent s1 = new LMSstudent();
-       
         int bouns=s1.trainer_Ratings();
         int totalPaymentForTrainer = trainerPaymentCal() + bouns;
         return totalPaymentForTrainer;
